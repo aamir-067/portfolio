@@ -1,0 +1,659 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap');
+
+body{
+    background-color: rgb(23, 22, 22);
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+h1,h2,h3,h4,h5{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.page1{
+    background-image: url(../pics/2.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    width: 1350px;
+    height: 700px;
+}
+
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(41,41,41, 0.5);
+}
+
+
+/* logo */
+
+.logo
+    {
+    color: white;
+    margin: 10px 0 0 20px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+/* links */
+
+.linkk:hover{
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+
+.linkk{
+    color: rgb(228, 88, 46);
+    text-decoration: none;
+    /* border-bottom: 2px solid rgb(247, 247, 247); */
+    letter-spacing: 2px;   
+    padding: 3px 3px 0px 3px;
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+/* transition */
+
+
+div.linksinnav{
+    margin-left:350px;
+}
+ul{
+    display: inline;
+    padding: 0;
+    margin: 0;
+}
+
+
+        /* ======Intro========= */
+
+
+.intro{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 130px;
+}
+
+
+
+
+
+
+.hellomy{
+    color: white;
+    font-size: 25px;
+    word-spacing: 5px;
+    margin: 0 0 0 0px;
+    text-transform: capitalize;
+}
+.name{
+    display: inline-block;
+    box-sizing: border-box;
+    word-spacing: 4px;
+    font-size: 80px;
+    margin: 10px 0px 5px 0;
+    color:white;
+
+}
+.iam{
+    margin: 0 0 0 0px;
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+
+
+/* =========education section====== */
+
+
+/* heading */
+.education{
+    width:1350px;
+    background-image: url(../pics/1.png);
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+
+.eduheading{
+    color: white;
+    font-size: 40px;
+    margin: 0 0 0 60px;
+    padding-top: 40px;
+    letter-spacing: 3px;
+}
+
+.lineinedu{
+    width: 1125px;
+    border: 2px solid rgb(228, 88, 46);
+    /* margin-top: -5px; */
+    margin-left: 60px;
+}
+
+.sscschool,.fscschool,.bscschool{
+    padding-top: 5px;
+}
+
+
+/*================ ssc =============== */
+
+
+/* heading & date */
+
+div.sscsection ul.sscanddate{
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    margin: 50px 0 0 60px;
+}
+
+.ssc{
+    color: white;
+    font-size: 30px;
+    margin-right: 950px;
+}
+.sscdate{
+    font-size: 20px;
+    padding: 0 3px;
+    border-bottom: 2px solid rgb(228, 88, 46);
+}
+
+.sscschool{
+    color: rgb(228, 88, 46);
+    margin-left: 60px;
+    margin-top: -5px;
+    font-size: 18px;
+
+}
+.sscdata{
+    color: white;
+    margin-left: 60px;
+}
+
+
+/* ========fsc======== */
+
+
+.fscsection{
+    margin-top: 50px;
+}
+
+
+/* heading & date */
+
+div.fscsection ul.fscanddate{
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    margin: 30px 0 0 60px;
+}
+
+.fsc{
+    color: white;
+    font-size: 30px;
+    margin-right: 710px;
+}
+.fscdate{
+    font-size: 20px;
+    padding: 0 3px;
+    border-bottom: 2px solid rgb(228, 88, 46);
+}
+
+.fscschool{
+    color: rgb(228, 88, 46);
+    margin-left: 60px;
+    margin-top: -5px;
+    font-size: 18px;
+
+}
+.fscdata{
+    color: white;
+    margin-left: 60px;
+}
+
+
+
+
+
+
+/* ========bsc======== */
+
+
+.bscsection{
+    margin-top: 50px;
+}
+
+
+/* heading & date */
+
+div.bscsection ul.bscanddate{
+    list-style-type: none;
+    color: white;
+    display: inline-block;
+    margin: 30px 0 0 60px;
+}
+
+.bsc{
+    color: white;
+    font-size: 30px;
+    /* margin-right: 680px; */
+}
+.bscdate{
+    font-size: 20px;
+    padding: 0 3px;
+    margin-left: 600px;
+    border-bottom: 2px solid rgb(228, 88, 46);
+}
+
+.bscschool{
+    color: rgb(228, 88, 46);
+    margin-left: 60px;
+    margin-top: -5px;
+    font-size: 18px;
+
+}
+.bscdata{
+    color: white;
+    margin-left: 60px;
+    padding-bottom: 100px;
+}
+
+
+
+
+
+
+/* =============cources & skills =========== */
+
+
+.cources{
+    background-image: url(../pics/hand\ 2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1350px;
+    margin: 0;
+    padding: 0;
+    margin-top: -20px;
+}
+
+
+
+/* heading */
+
+.courcesheading{
+    color: white;
+    font-size: 40px;
+    margin: 0 0 0 60px;
+    padding-top: 40px;
+    letter-spacing: 3px;
+}
+
+.lineincource{
+    width: 1125px;
+    border: 2px solid rgb(228, 88, 46);
+    /* margin-top: -5px; */
+    margin-left: 60px;
+}
+
+
+/* ====frontend development======= */
+
+.frontendheading{
+    color: rgb(228, 88, 46);
+    padding: 30px 0 0 60px;
+    font-size: 25px;
+
+}
+.frontenddata{
+    color: white;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+
+/* ======Amazon======= */
+
+
+.amazonheading{
+    color: rgb(228, 88, 46);
+    padding: 30px 0 0 60px;
+    font-size: 25px;
+
+}
+.amazondata{
+    color: white;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+
+/* ============first aid=========== */
+
+.firstaidheading{
+    color: rgb(228, 88, 46);
+    padding: 30px 0 0 60px;
+    font-size: 25px;
+
+}
+.firstaiddata{
+    color: white;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+
+
+
+/* ==============skillls========== */
+
+
+.skillsheading{
+    color: white;
+    font-size: 40px;
+    margin: 0 0 0 60px;
+    padding-top: 100px;
+    letter-spacing: 3px;
+}
+
+.lineinskills{
+    width: 1125px;
+    border: 2px solid rgb(228, 88, 46);
+    /* margin-top: -5px; */
+    margin-left: 60px;
+}
+
+/* =========skills data========= */
+
+
+
+
+.skillheading{
+    color: rgb(228, 88, 46);
+    font: bold;
+    margin-left: 125px;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+.skill{
+    margin-right: 200px;
+    font-size: 25px;
+}
+.level{
+    font-size: 25px;
+}
+
+
+
+/* python */
+
+.python{
+    margin-left: 100px;
+}
+.pyno{
+    color: rgb(228, 88, 46);
+    font-size: 25px;
+    padding-right: 5px;
+}
+.py{
+    color: white;
+    font-size: 20px;
+}
+.pylev{
+    color: white;
+    padding-left: 210px;
+    font-size: 20px;
+}
+
+
+
+/* html */
+
+.html{
+    margin-left: 100px;
+}
+.htno{
+    color: rgb(228, 88, 46);
+    font-size: 25px;
+    padding-right: 5px;
+}
+.ht{
+    color: white;
+    font-size: 20px;
+}
+.htlev{
+    color: white;
+    padding-left: 221px;
+    font-size: 20px;
+}
+
+
+/* css */
+
+
+.css{
+    margin-left: 100px;
+}
+.csno{
+    color: rgb(228, 88, 46);
+    font-size: 25px;
+    padding-right: 5px;
+}
+.cs{
+    color: white;
+    font-size: 20px;
+}
+.cslev{
+    color: white;
+    padding-left: 232px;
+    font-size: 20px;
+}
+
+
+/* c */
+
+.clang{
+    margin-left: 100px;
+}
+.cno{
+    color: rgb(228, 88, 46);
+    font-size: 25px;
+    padding-right: 5px;
+}
+.c{
+    color: white;
+    font-size: 20px;
+}
+.clev{
+    color: white;
+    padding-left: 254px;
+    font-size: 20px;
+}
+
+
+/* creative writing */
+
+
+.creativewriting{
+    margin-left: 100px;
+}
+.cwno{
+    color: rgb(228, 88, 46);
+    font-size: 25px;
+    padding-right: 5px;
+}
+.cw{
+    color: white;
+    font-size: 20px;
+}
+.cwlev{
+    color: white;
+    padding-left: 109px;
+    font-size: 20px;
+}
+
+
+/* amazon fba */
+
+
+.fba{
+    margin-left: 100px;
+    padding-bottom: 100px;
+}
+.fbno{
+    color: rgb(228, 88, 46);
+    font-size: 25px;
+    padding-right: 5px;
+}
+.fb{
+    color: white;
+    font-size: 20px;
+}
+.fblev{
+    color: white;
+    padding-left: 145px;
+    font-size: 20px;
+}
+
+
+
+/* ============about============= */
+
+
+.about{
+    width: 1350px;
+    height: auto;
+    background-image: url(../pics/hand.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0;
+    margin-top: -20px;
+}
+
+/* heading */
+.aboutheading{
+    color: white;
+    font-size: 40px;
+    margin: 0 0 0 60px;
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+
+.lineinabout{
+    width: 1125px;
+    border: 2px solid rgb(228, 88, 46);
+    /* margin-top: -5px; */
+    margin-left: 60px;
+}
+
+
+/* image */
+
+.apnapic{
+    height: 400px;
+    width: auto;
+    padding: 100px 0 150px 0px;
+    margin-right: -150px;
+
+}
+.aboutme{
+    width: 550px;
+    margin-top: -100px;
+    margin-left: -50px;
+}
+.poi{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 0 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.aboutme h2{
+    text-transform: capitalize;
+    font-size: 25px;
+    color: rgb(228, 88, 46);
+    margin: 0 0 -10px 0;
+}
+.aboutme p{
+    color: white;
+    word-spacing: 3px;
+    padding-bottom: 20px;
+
+}
+/* ========== download CV button========= */
+.aboutme .btnofcv{
+    text-decoration: none;
+    border-radius: 300px;
+    border: 2px solid rgb(228, 88, 46);
+    padding: 10px 15px;
+    color: white;
+    background-color: rgb(228, 88, 46);
+}
+.aboutme .btnofcv:hover{
+    transition: 0.5s;
+    background: transparent;
+    border: 2px solid rgb(228, 88, 46);
+}
+.aboutme .btnofcv:active{
+    transition: 0s;
+    transform: scale(0.9);
+    padding: 7px 12px;
+    background: transparent;
+    border: 2px solid rgb(228, 88, 46);
+}
+
+
+/* =========footer========= */
+
+
+
+footer{
+    background-color: rgba(27, 30, 27, 0.7);
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+
+footer div.linksinfooter a{
+    padding-top: 10px;
+    padding-left: 30px;
+    display: inline-block;
+    /* margin:0 auto; */
+    text-decoration: none;
+    color:rgb(228, 88, 46);
+}
+footer div.linksinfooter a:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+footer div.linksinfooter a:active{
+    font-weight: bold;
+}
+
+
+
+footer div.linksinfooter{
+    padding:0 500px;
+}
+
+footer p{
+    color: rgb(196, 196, 196);
+    text-align: center;
+    margin: 0;
+    font-size: 14px;
+    padding: 5px 0;
+}
+footer p.copy{
+    font-size: 13px;
+    font-weight: 200;
+}
+
+/* ============utility class============== */
+.orange{
+    color: rgb(228, 88, 46);
+}
